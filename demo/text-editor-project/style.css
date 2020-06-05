@@ -7,6 +7,7 @@ body {
   font-weight: 100;
   max-width: 7.06cm;
   max-height: 8.62cm;
+  overflow: hidden;
   margin: 0 auto;
 }
 
