@@ -5,7 +5,8 @@ html {
 body {
   color: #333;
   font-weight: 100;
-  max-width: 50em;
+  max-width: 7.06cm;
+  max-height: 8.62cm;
   margin: 0 auto;
 }
 
@@ -14,11 +15,11 @@ div:focus {
 }
 
 #heading {
-  font-size: 48px;
-  padding-top: 30px;
+  font-size: 16pt;
+  padding-top: 1.2cm;
 }
 
 #content {
-  padding-top: 10px;
-  font-size: 24px;
+  padding-top: 1.27cm;
+  font-size: 13pt;
 }
