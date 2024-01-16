@@ -1,0 +1,267 @@
+.toplevel_page_twentig #wpcontent {
+	padding: 0;
+}
+
+.toplevel_page_twentig .update-nag,
+.toplevel_page_twentig #wpbody-content > .notice,
+.toplevel_page_twentig #wpbody-content > .error {
+	margin: 16px 24px;
+}
+
+.tw-about__container {
+	margin: 0 auto;
+}
+
+.tw-about__header {
+	background-color: #000;
+	padding: 0 40px;
+}
+
+.tw-about__header-navigation {
+	display: flex;
+	align-items: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tw-about__header-navigation a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	margin-left: 24px;
+}
+
+.tw-about__header-navigation a:hover {
+	color: #00a0d2;
+}
+
+svg.tw-nav__logo {
+	width: 80px;
+	fill: #fff;
+	margin-right: auto;
+}
+
+.tw-about__section {
+	padding: 60px 40px;
+}
+
+.tw-about__section:nth-child(4),
+.tw-about__section:nth-child(5),
+.tw-about__section:nth-child(6) {
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.tw-about__section.is-feature {
+	background-color: #000;
+	color: #fff;
+}
+
+.tw-about__section.is-feature h1 {
+	color: #fff;
+	font-size: 46px;
+	line-height: 1.1;
+	padding: 0;
+	font-weight: 600;
+	text-align: center;
+	max-width: 720px;
+}
+
+.tw-about__section.is-feature p {
+	font-size: 20px;
+	max-width: 720px;
+}
+
+.tw-about__section-inner {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.tw-about__container h2 {
+	font-size: 36px;
+	text-align: center;
+	margin: 0 auto 20px;
+	line-height: 1.1;
+}
+
+.tw-about__container h3 {
+	margin-top: 0;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.tw-about__container h2 + p {
+	font-size: 18px;
+}
+
+.tw-about__container .tw-about__section-inner > * {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tw-about__container .tw-about__section-inner > p {
+	text-align: center;
+}
+
+.tw-about__container .tw-about__image {
+	max-width: 100%;
+	margin: 50px 0 55px;
+}
+
+.tw-about__container .tw-about__image.less-margin {
+	margin: 45px 0 40px;
+}
+
+.tw-about__image img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.tw-responsive-video {
+	position: relative;
+	max-width: 800px !important;
+	margin-top: 50px;
+}
+
+.tw-responsive-video::before {
+	content: "";
+	display: block;
+	padding-top: 56.25%;
+}
+
+.tw-responsive-video iframe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.tw-about__container .tw-about__columns {
+	max-width: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -16px;
+	margin-right: -16px;
+}
+
+.tw-about__container .tw-about__columns .column {
+	padding: 0 16px;
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.tw-about__container p {
+	font-size: 16px;
+}
+
+.tw-about__section.is-cta .tw-about__section-inner {
+	color: #fff;
+	text-align: center;
+	padding: 100px 40px;
+	box-sizing: border-box;
+	background: #000 url(https://blocks.static-twentig.com/overview-resources.jpg) top center / cover no-repeat;
+}
+
+.tw-about__section.is-cta h2 {
+	color: #fff;
+}
+
+.tw-about__section.is-cta p {
+	margin-bottom: 30px;
+}
+
+.tw-about__section .button {
+	padding: 6px 14px;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.tw-about__section p a.button {
+	margin-top: 10px;
+}
+
+.tw-about__footer {
+	padding: 0 20px 12px;
+	margin-bottom: -25px;
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul.tw-footer-links {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	font-size: 14px;
+	margin: 12px 0 0 0;
+	line-height: 1.5;
+}
+
+ul.tw-footer-links li {
+	margin: 0 0 0 20px;
+}
+
+ul.tw-footer-links li:first-child {
+	margin-left: 0;
+}
+
+ul.tw-footer-links li a {
+	color: #0073aa;
+	text-decoration: none;
+}
+
+ul.tw-footer-links li a:hover {
+	text-decoration: underline;
+}
+
+p.tw-rate-plugin {
+	font-size: 14px;
+	margin: 12px 24px 0 0;
+}
+
+p.tw-rate-plugin a:first-of-type {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 782px) {
+
+	.tw-about__container .tw-about__columns .column {
+		flex-basis: 100%;
+	}
+
+	.tw-about__container .tw-about__columns .column:not(:first-child) {
+		margin-top: 12px;
+	}
+
+	.tw-about__header {
+		padding: 0 24px;
+	}
+
+	.tw-about__section {
+		padding: 50px 24px;
+	}
+
+	.tw-about__header-navigation a {
+		font-size: 13px;
+		margin-left: 20px;
+	}
+
+	.tw-about__section.is-feature h1 {
+		font-size: 36px;
+	}
+
+	.tw-about__container h2 {
+		font-size: 30px;
+	}
+
+}

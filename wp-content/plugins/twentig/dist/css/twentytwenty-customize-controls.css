@@ -1,0 +1,165 @@
+.control-section-twentig-more .accordion-section-title {
+	display: flex;
+	align-items: center;
+	padding-top: 11px;
+}
+
+.control-section-twentig-more .accordion-section-title span {
+	flex-grow: 1;
+	line-height: 1.2;
+	display: flex;
+	margin-right: 10px;
+}
+
+.control-section-twentig-more .accordion-section-title .button {
+	margin-right: -15px;
+	font-weight: 400;
+	background-color: #23282e;
+	border-color: #23282e;
+	color: #fff;
+	max-width: 60%;
+	white-space: normal;
+	text-align: center;
+	line-height: 1.2;
+	padding: 7px 10px;
+}
+
+.control-section-twentig-more .accordion-section-title .button:hover {
+	background-color: #32373d;
+}
+
+.rtl .control-section-twentig-more .accordion-section-title span {
+	margin-left: 10px;
+	margin-right: 0;	
+}
+
+.rtl .control-section-twentig-more .accordion-section-title .button {
+	margin-left: -15px;
+	margin-right: 0;
+}
+
+.customize-control-section-title {
+	margin: 20px 0;
+	border-top: 1px solid #ddd;
+	padding-top: 28px;
+}
+
+.customize-section-description-container + .customize-control-section-title {
+	border-top: 0;
+	padding-top: 0;
+	margin-top: 12px;
+}
+
+.customize-control-title {
+	line-height: 1.4;
+	margin-top: 2px;
+	margin-bottom: 7px;
+}
+
+.tw-customize-section-title {
+	font-size: 17px;
+	margin: 0;
+}
+
+.tw-customize-section-title + .customize-control-description,
+.customize-control-section-title .customize-control-description {
+	margin-top: 12px;
+	font-style: normal;
+}
+
+.customize-control-twentig-font-presets .customize-control-description {
+	margin-bottom: 16px;
+}
+
+.twentig-preset-list {
+	background: #fff;
+	padding: 10px 10px 0;
+	overflow-y: scroll;
+	height: 380px;
+	border: 1px solid #ddd;
+	border-top: 0;
+	display: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.twentig-preset-panel.is-open .twentig-preset-list {
+	display: block;
+}
+
+.twentig-preset-item {
+	cursor: pointer;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+
+.twentig-preset-item:hover,
+.twentig-preset-item:focus {
+	border-color: #999;
+}
+
+.twentig-preset-item img {
+	width: 250px;
+	vertical-align: top;
+}
+
+.twentig-preset-panel-title {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	position: relative;
+	margin: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.twentig-preset-panel-toggle {
+	width: 100%;
+	background: 0 0;
+	cursor: pointer;
+	text-align: left;
+	box-shadow: none;
+	outline: 0;
+	border: 0;
+	padding: 13px 15px;
+	color: #555d66;
+}
+
+.twentig-preset-panel-toggle .toggle-indicator {
+	vertical-align: bottom;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	z-index: 1;
+}
+
+.twentig-preset-panel-toggle .toggle-indicator::before {
+	content: "\f140";
+	font: normal 20px/1 dashicons;
+	speak: none;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+}
+
+.twentig-preset-panel.is-open .toggle-indicator::before {
+	content: "\f142";
+}
+
+.rtl .twentig-preset-panel-toggle {
+	text-align: right;
+}
+
+.rtl .twentig-preset-panel-toggle .toggle-indicator {
+	left: 10px;
+	right: auto;
+}
+
+@media (min-width: 782px) {
+
+	.twentig-preset-list {
+		max-height: calc(100vh - 400px);
+	}
+}
